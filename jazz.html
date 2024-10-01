@@ -81,6 +81,7 @@
                 margin-right: auto;
             }
 
+
             nav ul {
                 display: none;
                 flex-direction: column;
@@ -260,7 +261,6 @@
         .video-box {
           flex: 1;
           padding: 20px;
-          background-color: lightblue;
           text-align: center;
         }
 
@@ -269,6 +269,11 @@
           .video-container {
             flex-direction: column;
           }
+          
+          
+
+
+
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -278,11 +283,11 @@
         <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
         <nav>
             <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#music">Music</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#hero" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#music" onclick="toggleMenu()">Music</a></li>
+                <li><a href="#events" onclick="toggleMenu()">Events</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -294,13 +299,20 @@
             <div class="slides" style="background-image: url('group3.jpg');"></div>
         </div>
 
-        <h1>The Jazz Experience</h1>
+        <h1>Pelham Street Combo</h1>
         <p>Feel the Rhythm, Sway to the Sound</p>
     </section>
 
     <section id="about" class="container">
         <h2>About Us</h2>
-        <p>We are a jazz band that brings the classic and modern sounds of jazz to life. From smooth ballads to upbeat swing, our music creates an unforgettable atmosphere. Chat gpt wrote this.</p>
+        <p>We are your new favorite local jazz band that brings the classic and modern sounds of jazz to life. From smooth swing to toe-tapping funk, our music will create an unforgettable experience for any atmosphere.</p>
+        <br>
+        <p>The Pelham Street Trio members are proud alimni of Notre Dame Colledge School where they started their love for jazz. As they gigged around the niagara region and participated nation-wide in MusicFest Canada winning many awards, this local supergroup continues to share their love for music around Niagara</p>
+
+        <br>
+        <h1 style="text-align: center;">"These guys rock" ~ Mark Hand</h1>
+        <br>
+        <h1 style="text-align: center;">"Best local band ever!!! ~ Anonymous"</h1>
     </section>
 
     <section id="music" class="container">
@@ -317,7 +329,7 @@
                 </div>
 
                 <div class="video-box">
-                    <video width="320" height="440" controls>
+                    <video width="220" height="340" controls>
                       <source src="vid2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                     </video>
