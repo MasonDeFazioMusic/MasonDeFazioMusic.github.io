@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Strings - Acoustic Duo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #fffae3, #ffe4b3);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffd699;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #a85d00;
+        }
+
+        .videos-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .video-item {
+            background: #fff7e6;
+            padding: 1rem;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .video-item video {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .video-caption {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        footer {
+            background-color: #ffcf80;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #a85d00;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mason and Priyanka</h1>
+        <h2>Acoustic Duo</h2>
+    </header>
+
+    <section class="videos-section">
+        <div class="video-item">
+            <video controls>
+                <source src="dontknowwhy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-caption">Don't Know Why by Norah Jones - Live at the Warehouse</div>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="inyoureyes2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-caption">In Your Eyes by BADBADNOTGOOD</div>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="fromthestart.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-caption">From The Start by Laufey</div>
+        </div>
+        <!-- Add more video blocks as needed -->
+    </section>
+
+    <footer>
+        <p>See more demos and updates on Instagram: <a href="https://www.instagram.com/masondefazio.music/" target="_blank">@masondefazio.music</a></p>
+    </footer>
+
+</body>
+</html>
